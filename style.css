@@ -1,0 +1,65 @@
+#simulador{
+    margin: auto;
+    width: 900px;
+}
+
+/*
+* Quadro (textura + ambiente com parte transparente)
+*/
+#quadro{
+    width: 550px; 
+    height: 400px;
+    float: left;
+    border: 1em solid rgb(255,255,255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0.05em 0.05em 0.1em;
+    background: url("images/catalogo/grafiatos/BT06_grafiato_marfim_classico.jpg");
+    background-size: 25%;
+    background-repeat: repeat;
+    margin-right: 10px; 
+    /*vertical-align: top;*/
+}
+#ambienteFoto{
+    width:100%; 
+    height:100%;
+    background:url(catalogo/simulador/simulador.png) no-repeat; 
+    background-size:100%;
+}
+
+/*
+* Paletas de texturas
+*/
+#paleta{
+    width:220px;
+    height:220px;
+    float: left;
+    border:1px solid #ccc;
+    background:rgba(255,255,255, .6);
+    padding:10px;
+    overflow:auto;
+}
+#paleta figure{
+    width:40px; 
+    height:40px;
+    margin:3px;
+    display:inline-block;
+}
+
+/*
+* Ambientes
+*/
+#ambiente{
+    height:160px;
+    width:220px;
+    float: left;
+    margin-top:10px; 
+    padding:10px;
+    border:1px solid #ccc;
+    background:rgba(255,255,255, .6);
+    overflow:auto;
+}
+#ambiente figure{
+    width:90px;
+    height:65px;
+    margin:4px;
+    display:inline-block;
+}

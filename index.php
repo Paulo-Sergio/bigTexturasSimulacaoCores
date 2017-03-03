@@ -6,7 +6,7 @@
     </head>
     <body>
 
-        <div id="simulador" class="">
+        <div id="simulador">
             <div id="quadro" style="border: 1em solid rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.4) 0.05em 0.05em 0.1em; background: url(&quot;images/catalogo/grafiatos/BT06_grafiato_marfim_classico.jpg&quot;) 0% 0% / 25%; width: 550px; height: 400px; vertical-align: top; margin-right: 10px; float: left;" class="">
                 <div id="ambienteFoto" style="border-box:border; background:url(catalogo/simulador/simulador.png)no-repeat; background-size:100%; width:100%; height:100%" class=""></div>
             </div>
@@ -66,7 +66,7 @@
                 <figure style="display:inline-block; width:40px; height:40px; margin:5px; background:url('images/catalogo/grafiatos/BT56_grafiato_quantum.jpg');" onclick="$.Simulador('BT56_grafiato_quantum.jpg');" title="BT56 grafiato quantum"></figure>
             </div>
 
-            <div id="ambiente" style="float:left; width:220px; margin-top:10px; padding:10px; height:160px; overflow:auto; border:1px solid #ccc;background:rgba(255,255,255, .6">
+            <div id="ambiente" style="float:left; width:220px; margin-top:10px; padding:10px; height:160px; overflow:auto; border:1px solid #ccc;background:rgba(255,255,255, .6)">
                 <figure style="width:90px; height:65px; background:url(catalogo/simulador/simulador.png); background-size:100%; margin:5px; display:inline-block" onclick="$.Ambiente('simulador.png');"></figure>			
                 <figure style="width:90px; height:65px; background:url(catalogo/simulador/simulador-quarto.png); background-size:100%; margin:5px; display:inline-block" onclick="$.Ambiente('simulador-quarto.png');"></figure>			
                 <figure style="width:90px; height:65px; background:url(catalogo/simulador/simulador-quarto2.png); background-size:100%; margin:5px; display:inline-block" onclick="$.Ambiente('simulador-quarto2.png');"></figure>
